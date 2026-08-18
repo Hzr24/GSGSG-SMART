@@ -1,0 +1,10 @@
+# Disable directory browsing
+Options -Indexes
+
+# Set default landing page
+DirectoryIndex index.php index.html
+
+# Block direct web access to sensitive environment and config files
+<FilesMatch "^\.env|^\.git|\.example$">
+    Require all denied
+</FilesMatch>
