@@ -3,7 +3,7 @@
  * Shared Header Include
  * GSGSG Scholarship Tracking System
  */
-if (!isset($pageTitle)) $pageTitle = 'GSGSG-SMART &mdash; Scholarship Management &amp; Tracking System';
+if (!isset($pageTitle)) $pageTitle = 'GSGSG SMART &mdash; Scholarship Management &amp; Tracking System';
 if (!isset($pageSubtitle)) $pageSubtitle = 'Academic Year 2025/2026 &mdash; Semester II';
 if (!isset($currentPage)) $currentPage = 'dashboard';
 ?>

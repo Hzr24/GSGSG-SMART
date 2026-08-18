@@ -3,7 +3,7 @@
  * Formal Academic Committee Scholarship Report View
  * GSGSG Scholarship Tracking System
  */
-$pageTitle = 'Official Scholarship Performance &amp; Compliance Report &mdash; GSGSG-SMART';
+$pageTitle = 'Official Scholarship Performance &amp; Compliance Report &mdash; GSGSG SMART';
 $pageSubtitle = 'Institutional Standing, Retention Metrics &amp; Committee Review';
 $currentPage = 'reports';
 $pageScript = 'js/reports.js';

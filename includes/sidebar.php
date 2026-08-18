@@ -11,7 +11,7 @@ if (!isset($currentPage)) $currentPage = 'dashboard';
     <a class="brand-logo" href="dashboard.php">
       <div class="brand-icon">&#127891;</div>
       <div class="brand-text">
-        <span class="brand-name">GSGSG-SMART</span>
+        <span class="brand-name">GSGSG SMART</span>
         <span class="brand-sub">Scholarship System</span>
       </div>
     </a>

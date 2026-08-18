@@ -3,7 +3,7 @@
  * Student Roster View
  * GSGSG Scholarship Tracking System
  */
-$pageTitle = 'Student Roster &mdash; GSGSG-SMART';
+$pageTitle = 'Student Roster &mdash; GSGSG SMART';
 $pageSubtitle = 'Academic Registry &bull; Scholarship Enrollees';
 $currentPage = 'students';
 $pageScript = 'js/students.js';

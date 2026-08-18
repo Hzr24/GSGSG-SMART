@@ -1,4 +1,4 @@
-# GSGSG-SMART 🎓
+# GSGSG SMART 🎓
 > **Scholarship Management, Academic Review & Tracking System**  
 > Developed for Ghazali Shafie Graduate School of Government (GSGSG), Universiti Utara Malaysia (UUM).
 
@@ -6,7 +6,7 @@
 
 ## 📌 About the Project
 
-**GSGSG-SMART** is an academic administration platform designed to track, audit, and manage scholarship recipients across postgraduate and undergraduate degree programmes. It automates CGPA and GPA calculations across semesters, flags student standing according to institutional scholarship retention thresholds, and produces formal, print-ready compliance audit reports for academic committee review boards.
+**GSGSG SMART** is an academic administration platform designed to track, audit, and manage scholarship recipients across postgraduate and undergraduate degree programmes. It automates CGPA and GPA calculations across semesters, flags student standing according to institutional scholarship retention thresholds, and produces formal, print-ready compliance audit reports for academic committee review boards.
 
 ---
 

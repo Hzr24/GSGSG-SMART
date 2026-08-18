@@ -3,7 +3,7 @@
  * Student Academic Detail Profile View
  * GSGSG Scholarship Tracking System
  */
-$pageTitle = 'Student Profile &mdash; GSGSG-SMART';
+$pageTitle = 'Student Profile &mdash; GSGSG SMART';
 $pageSubtitle = 'Academic History &amp; Transcript Performance';
 $currentPage = 'detail';
 $pageScript = 'js/student-detail.js';

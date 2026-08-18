@@ -3,7 +3,7 @@
  * Executive Dashboard
  * GSGSG Scholarship Tracking System
  */
-$pageTitle = 'Dashboard &mdash; GSGSG-SMART';
+$pageTitle = 'Dashboard &mdash; GSGSG SMART';
 $pageSubtitle = 'Academic Year 2025/2026 &mdash; Semester II';
 $currentPage = 'dashboard';
 $pageScript = 'js/dashboard.js';
