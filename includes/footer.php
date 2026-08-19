@@ -98,8 +98,8 @@
     <div style="margin-top:14px;padding:12px;background:var(--bg-base);border-radius:var(--radius-sm);border:1px solid var(--border);">
       <div style="font-size:11px;font-weight:700;color:var(--text-muted);margin-bottom:6px;">Expected CSV Format:</div>
       <code style="font-size:11px;color:var(--text-secondary);line-height:1.8;">
-        id, name, program, year, email, cgpa<br>
-        901234, Ahmad Razali, Bachelor of CS, 3, ahmad@mail.edu, 3.85
+        id, name, program, year, email<br>
+        901234, Ahmad Razali, Master of Public Management (MPM), 1, ahmad@mail.edu
       </code>
     </div>
     <div id="importPreview" style="margin-top:12px;display:none;"></div>

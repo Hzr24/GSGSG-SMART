@@ -274,7 +274,6 @@ function processCSVFile(file) {
     const progIdx = gi('program');
     const yearIdx = gi('year');
     const emailIdx = gi('email');
-    const cgpaIdx = gi('cgpa');
 
     pendingImportData = [];
 
@@ -287,10 +286,9 @@ function processCSVFile(file) {
       pendingImportData.push({
         id,
         name,
-        program: cols[progIdx] || 'Bachelor of Computer Science',
+        program: cols[progIdx] || 'Master of Public Management (MPM)',
         year: parseInt(cols[yearIdx]) || 1,
-        email: cols[emailIdx] || '',
-        cgpa: parseFloat(cols[cgpaIdx]) || 0
+        email: cols[emailIdx] || ''
       });
     }
 
@@ -308,7 +306,7 @@ function processCSVFile(file) {
         `<div style="max-height:120px;overflow-y:auto;background:var(--bg-base);border-radius:var(--radius-sm);padding:10px;border:1px solid var(--border);">` +
         pendingImportData.slice(0, 5).map(s =>
           `<div style="font-size:12px;padding:3px 0;border-bottom:1px solid var(--border);">
-            <span style="color:var(--text-muted);font-family:monospace;">${escHtml(s.id)}</span> &middot; ${escHtml(s.name)} &middot; CGPA ${s.cgpa.toFixed(2)}
+            <span style="color:var(--text-muted);font-family:monospace;">${escHtml(s.id)}</span> &middot; ${escHtml(s.name)} &middot; <span style="color:var(--text-muted);">${escHtml(s.program)}</span>
           </div>`
         ).join('') +
         (pendingImportData.length > 5 ? `<div style="font-size:11px;color:var(--text-muted);padding-top:4px;">... and ${pendingImportData.length - 5} more records</div>` : '') +
